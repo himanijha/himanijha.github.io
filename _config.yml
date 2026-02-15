@@ -1,0 +1,15 @@
+title: Himani Jha
+email: himanijha12@gmail.com
+url: himanijha.com
+linkedin_username: himanijha
+github_username:  himanijha
+
+remote_theme: jekyll/minima@4de3223
+minima:
+  skin: auto
+  nav_pages:
+    - blog.md
+  hide_site_feed_link: true
+
+plugins:
+  - jekyll-remote-theme
