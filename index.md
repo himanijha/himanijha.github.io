@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Himani Jha
+title: About
 ---
 
 <img src="profile.png" alt="Himani Jha" style="width:250px;height:250px;border-radius:50%;object-fit:cover;float:right;margin-left:20px;margin-top:-60px;border:1px solid #333;">
