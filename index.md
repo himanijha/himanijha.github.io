@@ -3,20 +3,24 @@ layout: home
 title: Himani Jha
 ---
 
-# Himani Jha
+<img src="profile.png" alt="Himani Jha" style="width:250px;height:250px;border-radius:50%;object-fit:cover;float:right;margin-left:20px;margin-top:-60px;border:1px solid #333;">
 
-I currently live in Los Angeles and study Computer Science and Engineering at [UCLA](https://www.ucla.edu/), graduating in June 2027. This summer, I'm interning at [Pure Storage](https://www.purestorage.com/), now called [Everpure](https://everpuredata.com/), working on hypervisors and virtual machines. More details to come towards the end of the summer.
+I currently live in San Jose and study Computer Science at [UCLA](https://samueli.ucla.edu), graduating in June 2028. This summer, I'm interning at [Pure Storage](https://www.purestorage.com/), now called [Everpure](https://everpuredata.com/), working on hypervisors and virtual machines. More details to come towards the end of the summer.
 
 Email: [himanijha12@gmail.com](mailto:himanijha12@gmail.com). Resume: [PDF](resume.pdf).
 
-Things I'm interested in:
+Areas I'm interested in:
 
-* Systems and performance. At Everpure, I'm working on hypervisors and virtual machines, building on earlier work there focused on low level debugging and performance tuning that improved data throughput for hyperscaler customers. I like digging into how things work close to the hardware.
-* Mobile development. I built [BinBot](https://github.com/himanijha/BinBot/tree/main), an iOS app using SwiftUI, UIKit, and Core ML that helps people sort their trash, trained on a custom Create ML model.
-* Augmented reality. I developed [PianoTutor](https://github.com/himanijha), an AR experience built in Swift Playgrounds with Apple's RealityKit framework to teach beginners piano, recognized as a winning project in Apple's Swift Student Challenge.
-* Accessibility. I care about building technology that works for people regardless of ability, from screen free interfaces to alternative input methods. [FoldedNotes](https://github.com/himanijha/FoldedNotes/tree/main), below, is one example.
-* Giving back through nonprofits. I've built tools for organizations doing work I care about: an anonymous peer support hotline for queer individuals called [FoldedNotes](https://github.com/himanijha/FoldedNotes/tree/main), which uses AI driven message matching and voice morphing alongside a screen free, haptic based experience to preserve anonymity; the [Save Cantonese Volunteer Roster](https://github.com/himanijha/VolunteerRoster), which analyzes exported Zoom and Slack activity logs to identify inactive volunteers and streamline outreach; and a [volunteer management system](https://github.com/novaforgood/ASD) for the Alzheimer's San Diego nonprofit using Next.js and Supabase.
+* **Systems and performance.** Last summer at Pure Storage, I designed a kernel bypass data path for a block storage driver supporting a major AI hyperscaler, optimizing performance for high throughput workloads. I replaced the asynchronous io_uring interface with a userspace, zero copy shared memory API in C++, which cut I/O overhead and pushed throughput up by 60%. I identified the underlying bottlenecks using the perf tool, running performance tests and analyzing the results to locate the hot spots. I'm currently continuing in this direction through systems research at UCLA, working on similar questions around performance and efficiency at the systems level.
+* **Mobile development.** I built [BinBot](https://github.com/himanijha/BinBot/tree/main), an iOS app using SwiftUI, UIKit, and Core ML that helps people sort their trash, trained on a custom Create ML model. I also developed PianoTutor, an AR experience built in Swift Playgrounds with Apple's RealityKit framework to teach beginners piano, recognized as a winning entry in **[Apple's Swift Student Challenge](https://developer.apple.com/swift-student-challenge/)**.
+* **Accessibility.**
+  * PianoTutor's AR design was built with dyslexic learners in mind, relying on visual and spatial cues rather than dense text instructions. Rhythm and timing are encoded directly into the arrows themselves, so a learner can feel out when to play just by following their movement, without ever needing to learn to read sheet music.
+  * [FoldedNotes](https://github.com/himanijha/FoldedNotes/tree/main) is an anonymous peer support hotline for queer individuals that I helped build, using AI driven message matching and voice morphing to preserve anonymity. Rather than a screen based interface, it uses optional haptic hardware that delivers different vibration patterns mapped to different emotional states, so someone in distress can reach for something calming without needing to read or type anything.
+* **Giving back through tech for nonprofits.**
+  * I was a lead developer for the [Save Cantonese Volunteer Roster](https://github.com/himanijha/VolunteerRoster), built for the Save Cantonese nonprofit working to preserve Cantonese language programs at universities. The platform analyzes exported Zoom and Slack activity logs to automatically flag inactive volunteers, which freed up organizer time that used to go into manually tracking engagement with spreadsheets.
+  * I also helped build a volunteer management system for Alzheimer's San Diego, a nonprofit supporting 100,000+ people in San Diego County living with dementia, to help staff track volunteer hours and aggregate statistics across their programs.
+  * Most recently, I served as dev lead for [Mending Kids](https://github.com/novaforgood/mending-kids), building an inventory management system for the nonprofit, which has provided free surgical care to 6,000+ children worldwide. Keeping their surgical supply inventory organized and trackable directly supports how reliably their volunteer medical teams can deploy on mission trips.
 
-Elsewhere
+More of my work:
 
 [himanijha](https://github.com/himanijha) on GitHub; [himanijha](https://www.linkedin.com/in/himanijha) on LinkedIn.
