@@ -19,6 +19,6 @@ Things I'm interested in:
   * I helped build a volunteer management system for Alzheimer's San Diego, tracking and analyzing data for 100,000+ volunteers.
   * I served as dev lead on [Mending Kids](https://github.com/novaforgood/mending-kids), building an inventory system that helps keep their surgical supplies organized for 6,000+ child surgeries worldwide.
 
-More of my work
+More of my work:
 
 [himanijha](https://github.com/himanijha) on GitHub; [himanijha](https://www.linkedin.com/in/himanijha) on LinkedIn.
